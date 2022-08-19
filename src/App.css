@@ -1,38 +1,104 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Fredoka+One&family=Lexend+Deca:wght@100;300;400;500&family=Montserrat&family=Nunito+Sans&family=Pacifico&display=swap');
+@font-face {
+  font-family: chomsky;
+  src: url(../public/font/Chomsky.otf);
+}
+*{
+  color: white;
+  font-family: 'Lexend Deca', sans-serif;
+  
+}
+::-webkit-scrollbar{
+  width: 10px;
+}
+::-webkit-scrollbar-track{
+  box-shadow: 20px 20px 22px rgba(0,0,0,0.2);
+  backdrop-filter: blur(5px);
+    background-color: rgba(255,255,255,0.25);
+}
+::-webkit-scrollbar-thumb{
+  border-radius: 35px;
+  background-color: #09bb30;
+}
+::-webkit-scrollbar-thumb:hover{
+  background-color: #1266F1;
+}
+body{
+  background-color: rgb(45, 49, 53);
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1366' height='720' preserveAspectRatio='none' viewBox='0 0 1366 720'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1003%26quot%3b)' fill='none'%3e%3cpath d='M6 720L726 0L1003.5 0L283.5 720z' fill='url(%23SvgjsLinearGradient1004)'%3e%3c/path%3e%3cpath d='M476.78000000000003 720L1196.78 0L1492.28 0L772.28 720z' fill='url(%23SvgjsLinearGradient1004)'%3e%3c/path%3e%3cpath d='M1320 720L600 0L300 0L1020 720z' fill='url(%23SvgjsLinearGradient1005)'%3e%3c/path%3e%3cpath d='M847.22 720L127.22000000000003 0L-376.78 0L343.22 720z' fill='url(%23SvgjsLinearGradient1005)'%3e%3c/path%3e%3cpath d='M674.0041673611547 720L1366 28.004167361154714L1366 720z' fill='url(%23SvgjsLinearGradient1004)'%3e%3c/path%3e%3cpath d='M0 720L691.9958326388453 720L 0 28.004167361154714z' fill='url(%23SvgjsLinearGradient1005)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1003'%3e%3crect width='1366' height='720' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='0%25' y1='100%25' x2='100%25' y2='0%25' id='SvgjsLinearGradient1004'%3e%3cstop stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='100%25' y1='100%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient1005'%3e%3cstop stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+  background-attachment: fixed;
+  background-size: cover;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.poovarasan{
+  background: linear-gradient(to right, #e5ff00, rgb(255, 0, 0));
+  -webkit-background-clip: text;
+    color: transparent;
+font-family:"chomsky";
+font-size: 35px;
+letter-spacing: 3px;
+
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navtop{
+  background-color: rgba(255,255,255,0.06);
+  backdrop-filter: blur(5px);
+  box-shadow: 20px 20px 22px rgba(0,0,0,0.2);
+/*   
+  box-shadow: 0 0 8px 4px rgba(17, 17, 26, 0.747);
+    backdrop-filter: blur(4px);
+    background-color: rgba(255, 255, 255, 0.418); */
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+#navbtn{
+  background: linear-gradient(to right, #000291, #0400ff);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.nav{
+  background-color: rgba(240, 248, 255, 0);
+}
+.headerimg{
+  box-shadow: 5px 5px 20px rgba(255, 255, 255, 0.452);
+  width: 500px;
+  height: 600px;
+}
+.headertitle{
+  
+  margin-top: 50px;
+  margin-left: 50px;
+  
+}
+.fontaustere{
+  font-family:"austere";
+}
+.js{
+  background: linear-gradient(180deg, #ffce3e 0%, #ffa900 100%);
+}
+.cardimg{
+  width: 150px;
+  height: 150px;
+  align-items: center;
+}
+.contactform{
+  border-radius: 15px;
+  width: 400px;
+  box-shadow: 0 0 8px 4px rgba(17, 17, 26, 0.747);
+  backdrop-filter: blur(4px);
+  background-color: rgba(255, 255, 255, 0.250);
+}
+.contactext{
+border-radius: 10px;
+  background: linear-gradient(to right, #0004ff, #ff0037);
+  webkit-background-clip: text;
+    
+}
+.st{
+background: linear-gradient(90deg, rgba(170,123,28,1) 0%, rgba(173,118,7,1) 0%, rgba(255,183,15,1) 63%, rgba(255,183,15,1) 95%);
+
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: 'Pacifico', cursive;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
